@@ -35,6 +35,7 @@ Inside the 'Projects' folder, you will find three subfolders.
 3. v: contains the source and reference files
 
 **Source Files**
+
 MyDesign.v - this file contains the majority of the source code
 sram.v - verilog file used to simulate a memory module
 ece_564_project_tb_top.v - test module used to simulate code
