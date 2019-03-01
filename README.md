@@ -1,6 +1,7 @@
 # SHA-256 Memory Setup
 
 **Abstract**
+
 SHA, or Secure Hash Algorithm, is part of a large family of cryptographic hash
 functions. This hash function acts as a unique identification for pieces of data. No two
 pieces of data will share the same hash. Hashing acts as a one way function, in that once
@@ -16,6 +17,7 @@ with each passing year, it becomes more prone to data length attacks, and in the
 years, the next family, SHA-3, will be adopted as the new standard.
 
 **Introduction**
+
 The scope of this project delves into creating into a simplified version of the
 SHA-256 algorithm. In order to simplify the algorithm, constraints were given in order to
 produce an output that was only 512 bits long. The message size was also limited
