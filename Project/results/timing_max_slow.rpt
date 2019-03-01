@@ -1,0 +1,58 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : MyDesign
+Version: K-2015.06-SP1
+Date   : Sat Nov 24 13:48:30 2018
+****************************************
+
+Operating Conditions: slow   Library: NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+Wire Load Model Mode: top
+
+  Startpoint: length_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: M1_reg[120]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                  0.0000     0.0000
+  clock network delay (ideal)            0.0000     0.0000
+  length_reg[0]/CK (DFF_X2)              0.0000     0.0000 r
+  length_reg[0]/Q (DFF_X2)               0.6391     0.6391 f
+  add_143/U1_1_1/CO (HA_X1)              0.2771     0.9162 f
+  add_143/U1_1_2/CO (HA_X1)              0.2629     1.1791 f
+  add_143/U1_1_3/CO (HA_X1)              0.2629     1.4420 f
+  add_143/U1_1_4/CO (HA_X1)              0.2629     1.7049 f
+  add_143/U1_1_5/S (HA_X1)               0.4194     2.1243 f
+  U2334/ZN (OR2_X1)                      0.3224     2.4467 f
+  U2335/ZN (OAI21_X1)                    0.2492     2.6959 r
+  U2320/ZN (OAI211_X2)                   0.2161     2.9120 f
+  U1275/ZN (NOR2_X2)                     1.1687     4.0807 r
+  U1545/ZN (INV_X4)                      0.5394     4.6201 f
+  U1541/ZN (INV_X4)                      0.8969     5.5170 r
+  U1532/ZN (INV_X4)                      0.4881     6.0051 f
+  U2231/ZN (OAI222_X2)                   0.5044     6.5095 r
+  M1_reg[120]/D (DFF_X2)                 0.0000     6.5095 r
+  data arrival time                                 6.5095
+
+  clock clk (rise edge)                 10.0000    10.0000
+  clock network delay (ideal)            0.0000    10.0000
+  clock uncertainty                     -0.0500     9.9500
+  M1_reg[120]/CK (DFF_X2)                0.0000     9.9500 r
+  library setup time                    -0.3289     9.6211
+  data required time                                9.6211
+  -----------------------------------------------------------
+  data required time                                9.6211
+  data arrival time                                -6.5095
+  -----------------------------------------------------------
+  slack (MET)                                       3.1116
+
+
+1

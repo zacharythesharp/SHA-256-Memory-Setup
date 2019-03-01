@@ -1,0 +1,17 @@
+Zachary Sharp
+ECE 464 Project Results
+
+- Cell Area
+	Area = 4950.2601nm squared
+ 
+- Simulated with 'hello' message
+- Cycles for secret file = (Total Simulation Time) / (Clock Period in TB)
+	# of Cycles = (585ns - 315ns) / 10 = 27 clock cycles
+
+
+- Clock Period from setup.tcl
+	Clock Period = 10
+
+- Performance = (Area) * (# of Cycles) * (Clock Period)
+	Performance = 4950.2601 * 27 * 10 = 1336570.227
+
